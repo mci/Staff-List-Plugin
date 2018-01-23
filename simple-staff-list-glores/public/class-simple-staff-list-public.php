@@ -16,8 +16,8 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/public
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/public
  * @author     Brett Shumaker <brettshumaker@gmail.com>
  */
 class Simple_Staff_List_Public {

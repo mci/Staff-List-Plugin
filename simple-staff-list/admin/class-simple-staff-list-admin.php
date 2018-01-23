@@ -2,11 +2,11 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://www.brettshumaker.com
+ * @link       https://github.com/mci/Staff-List-Plugin
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/admin
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/admin
  */
 
 /**
@@ -15,8 +15,8 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/admin
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/admin
  * @author     Brett Shumaker <brettshumaker@gmail.com>
  */
 class Simple_Staff_List_Admin {

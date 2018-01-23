@@ -5,11 +5,11 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://www.brettshumaker.com
+ * @link       https://github.com/mci/Staff-List-Plugin
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/includes
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/includes
  */
 
 /**
@@ -22,8 +22,8 @@
  * version of the plugin.
  *
  * @since      1.17
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/includes
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/includes
  * @author     Brett Shumaker <brettshumaker@gmail.com>
  */
 class Simple_Staff_List {

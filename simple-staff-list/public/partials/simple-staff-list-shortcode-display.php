@@ -7,8 +7,8 @@
  * @link       http://www.brettshumaker.com
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/public/partials
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/public/partials
  */
 
 	global $sslp_sc_output;
@@ -74,7 +74,7 @@
 
 	if ( $staff->have_posts() ) :
 
-		$output .= '<div class="staff-member-listing ' . $group . '">';
+		// $output .= '<div class="staff-member-listing ' . $group . '">';
 
 		while ( $staff->have_posts() ) :
 			$staff->the_post();
@@ -85,11 +85,11 @@
 				$staff_member_classes .= ' last';
 			}
 
-			if ( $i % 2 ) {
-				$output .= '<div class="staff-member odd ' . $staff_member_classes . '">';
-			} else {
-				$output .= '<div class="staff-member even ' . $staff_member_classes . '">';
-			}
+			// if ( $i % 2 ) {
+			// 	$output .= '<div class="staff-member odd ' . $staff_member_classes . '">';
+			// } else {
+			// 	$output .= '<div class="staff-member even ' . $staff_member_classes . '">';
+			// }
 
 			global $post;
 
@@ -149,13 +149,13 @@
 
 
 
-			$output .= '</div> <!-- Close staff-member -->';
+			// $output .= '</div> <!-- Close staff-member -->';
 			$i++;
 
 
 		endwhile;
 
-		$output .= '</div> <!-- Close staff-member-listing -->';
+		// $output .= '</div> <!-- Close staff-member-listing -->';
 
 		wp_reset_postdata();
 

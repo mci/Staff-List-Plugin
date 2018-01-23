@@ -4,11 +4,11 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://www.brettshumaker.com
+ * @link       https://github.com/mci/Staff-List-Plugin
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/admin/partials
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/admin/partials
  */
 
 // Get existing options.

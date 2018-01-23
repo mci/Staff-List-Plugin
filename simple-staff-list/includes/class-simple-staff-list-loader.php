@@ -2,11 +2,11 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://www.brettshumaker.com
+ * @link       https://github.com/mci/Staff-List-Plugin
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/includes
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/includes
  */
 
 /**
@@ -16,8 +16,8 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/includes
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/includes
  * @author     Brett Shumaker <brettshumaker@gmail.com>
  */
 class Simple_Staff_List_Loader {

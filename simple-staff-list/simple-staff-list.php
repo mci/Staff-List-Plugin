@@ -7,20 +7,20 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://www.brettshumaker.com
+ * @link              https://github.com/mci/Staff-List-Plugin
  * @since             1.17
- * @package           Simple_Staff_List
+ * @package           Simple_Staff_List_GLORES
  *
  * @wordpress-plugin
- * Plugin Name:       Simple Staff List
- * Plugin URI:        https://wordpress.org/plugins/simple-staff-list/
+ * Plugin Name:       Simple Staff List GLORES
+ * Plugin URI:        https://github.com/mci/Staff-List-Plugin
  * Description:       A simple plugin to build and display a staff listing for your website.
  * Version:           2.0.2
- * Author:            Brett Shumaker
+ * Author:            Brett Shumaker, Russell Moffitt
  * Author URI:        http://www.brettshumaker.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       simple-staff-list
+ * Text Domain:       simple-staff-list-glores
  * Domain Path:       /languages
  */
 
@@ -28,6 +28,9 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
+
+require_once('wp-updates-plugin.php');
+new WPUpdatesPluginUpdater_1844( 'http://wp-updates.com/api/2/plugin', plugin_basename(__FILE__));
 
 /**
  * Define constants for the plugin

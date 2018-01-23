@@ -2,11 +2,11 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://www.brettshumaker.com
+ * @link       https://github.com/mci/Staff-List-Plugin
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/includes
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/includes
  */
 
 /**
@@ -15,8 +15,8 @@
  * This class defines all code necessary to run during the plugin's deactivation.
  *
  * @since      1.17
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/includes
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/includes
  * @author     Brett Shumaker <brettshumaker@gmail.com>
  */
 class Simple_Staff_List_Deactivator {

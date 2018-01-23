@@ -7,8 +7,8 @@
  * @link       http://www.brettshumaker.com
  * @since      1.17
  *
- * @package    Simple_Staff_List
- * @subpackage Simple_Staff_List/admin/partials
+ * @package    Simple_Staff_List_GLORES
+ * @subpackage Simple_Staff_List_GLORES/admin/partials
  */
 
 // Get options for default HTML CSS.
